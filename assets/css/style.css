@@ -34,10 +34,10 @@ form {
 }
 
 .signup-login > .signin-form > .title {
-    color: gray;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 2.2rem;
+    font-weight: 600;
 }
 
 .input-field {
@@ -84,6 +84,8 @@ form {
     border:1px solid rgb(40, 162, 40);
     border-radius: 10px;
     cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.4s;
 }
 
 .submitBtn:hover {
