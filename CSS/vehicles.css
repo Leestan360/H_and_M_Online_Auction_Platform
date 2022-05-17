@@ -1,0 +1,46 @@
+*{
+  background-color: #fff8f8;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+.navBar{
+  display:flex
+}
+
+.navBar > h1{
+  padding : 0.8em;
+  font-size: 25;
+  font-weight:600;
+}
+
+.category > h1 {
+  padding : 0.6em;
+  font-size: 14;
+  font-weight:400;
+}
+
+.category > h1 > span {
+  color: #E66EB2;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}  
+
+
+.items > .bid1 {
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+
+
+
+
+
+
