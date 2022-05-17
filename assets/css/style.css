@@ -18,7 +18,7 @@ body, input {
     overflow: hidden;
 }
 
-.main > .forms {
+.forms {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -28,12 +28,15 @@ body, input {
 
 form {
     display: flex;
+    padding: 0 5rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
 }
 
-.signup-login > .signin-form > .title {
+.title {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 2.2rem;
@@ -82,7 +85,7 @@ form {
     background-color: rgb(40, 162, 40);
     margin-top: 10px;
     border:1px solid rgb(40, 162, 40);
-    border-radius: 10px;
+    border-radius: 13px;
     cursor: pointer;
     text-transform: uppercase;
     transition: all 0.4s;
@@ -92,3 +95,20 @@ form {
     background-color: green;
 }
 
+.signup-signup {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    display: grid;
+    transform: translate(-50%, -50%);
+    grid-template-columns: 1fr;
+}
+
+form.signin-form {
+    z-index: 2;
+}
+
+form.signup-form {
+    z-index: 1;
+    opacity: 0;
+}
