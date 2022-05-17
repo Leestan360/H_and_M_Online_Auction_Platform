@@ -85,3 +85,8 @@ form {
     border-radius: 10px;
     cursor: pointer;
 }
+
+.submitBtn:hover {
+    background-color: green;
+}
+
