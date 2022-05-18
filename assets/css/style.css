@@ -29,7 +29,7 @@
     margin: 30px auto;
     margin-left: 100px;
     position: relative;
-    border-radius: 25px;
+    border-radius: 15px;
     padding-left: 10px;
     padding-right: 7px;
 }
@@ -64,6 +64,8 @@
     color: cornflowerblue;
     cursor: pointer;
     border-radius: 50%;
+    margin-top: 240px;
+    justify-content: space-evenly;
 }
 
 .input-one {
@@ -93,7 +95,7 @@
     background: linear-gradient(to right, #ff4b2b, #ff416c);
     border: 0;
     border-radius: 15px;
-    font-size: 20px;
+    font-size: 10px;
     outline: none;
 }
 
@@ -108,14 +110,11 @@ label {
 
 #login {
     left: 50px;
-}
-
-#signup {
-    left: 350px;
+    margin-top: -60px;
 }
 
 .redirect {
-    margin-top: 230px;
+    margin-top: 20px;
     margin-left: 50px;
 }
 
