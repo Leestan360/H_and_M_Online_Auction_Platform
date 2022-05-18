@@ -126,3 +126,13 @@ label {
     border-radius: 8px;
     cursor: pointer;
 }
+
+.sub-button:hover {
+    background: linear-gradient(to right, #ee5034, #ec5175);
+    color: white;
+}
+
+p > a {
+    text-decoration: none;
+    color: white;
+}
