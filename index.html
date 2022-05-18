@@ -12,9 +12,9 @@
     <div class="main">
         <div class="one">
         <div class="box">
-            <div id="btn"></div>
-            <button type="button" class="toggle-btn">Login</button>
-            <button type="button" class="toggle-btn">Sign Up</button>
+            <div id="btn"></div> 
+            <button type="button" class="toggle-btn" onclick="login()">Login</button>
+            <button type="button" class="toggle-btn" onclick="signup()">Sign Up</button>
         </div>
         <form id="login" class="input-one">
             <input type="email" class="input-field" placeholder="Email" required>
@@ -24,9 +24,21 @@
             <button type="submit" class="sub-button">Login</button> 
         </form>
         <div class="icons">
-            <i class="fa-brands fa-facebook fa-3x"></i>
-            <i class="fa-brands fa-twitter fa-3x"></i>
-            <i class="fa-brands fa-instagram fa-3x"></i>
+            <i class="fa-brands fa-facebook fa-2x"></i>
+            <i class="fa-brands fa-twitter fa-2x"></i>
+            <i class="fa-brands fa-instagram fa-2x"></i>
+        </div>
+
+       <form id="signup" class="input-one">
+            <input type="email" class="input-field" placeholder="Email" required>
+            <input type="password" class="input-field" placeholder="Password" required>
+            <input type="confirm" class="input-field" placeholder="Confirm Password" required>
+            <button type="submit" class="sub-button">Sign Up</button> 
+        </form>
+        <div class="icons">
+            <i class="fa-brands fa-facebook fa-2x"></i>
+            <i class="fa-brands fa-twitter fa-2x"></i>
+            <i class="fa-brands fa-instagram fa-2x"></i>
         </div>
         </div>
     </div>
