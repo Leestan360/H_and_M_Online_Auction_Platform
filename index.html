@@ -10,56 +10,17 @@
 </head>
 <body>
     <div class="main">
-        <div class="forms">
-            <div class="signup-login">
-                <form action="#" class="signin-form">
-                    <h2 class="title">Sign In</h2>
-                    <div class="input-field">
-                        <i class="fa-solid fa-user"></i>
-                        <input type="text" placeholder="Username" />
-                    </div>
-                    <div class="input-field">
-                        <i class="fa-solid fa-lock"></i>
-                        <input type="password" placeholder="Password" />
-                    </div>
-                    <div class="login">
-                        <input type="submit" class="submitBtn" value="Login"/>
-                    </div>
-                    <div>
-                        <p>Don't have an account yet? <button id="sign-up-btn">Sign Up</button></p>
-                    </div>
-                </form>
-            </div>
-
-            <div class="signup-signup">
-                <form action="#" class="signup-form">
-                    <h2 class="title">Sign Up</h2>
-                    <div class="input-field">
-                        <i class="fa-solid fa-user"></i>
-                        <input type="text" placeholder="Username" />
-                    </div>
-                    <div class="input-field">
-                        <i class="fa-solid fa-envelope"></i>
-                        <input type="email" placeholder="Email" />
-                    </div>
-                    <div class="input-field">
-                        <i class="fa-solid fa-lock"></i>
-                        <input type="password" placeholder="Password" />
-                    </div>
-                    <div class="input-field">
-                        <i class="fa-solid fa-lock"></i>
-                        <input type="password" placeholder="Confirm Password" />
-                    </div>
-                    <div class="login">
-                        <input type="submit" class="submitBtn" value="Sign Up"/>
-                    </div>
-                </form>
-            </div>
+        <div class="box">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn">Login</button>
+            <button type="button" class="toggle-btn">Sign Up</button>
         </div>
-        <div class="panels">
-
-        </div>
+        <form id="login" class="input-one">
+            <input type="text" class="input-field" placeholder="Email" required>
+        </form>
     </div>
+
+    <script src="./assets/js/script.js"></script>
     
 </body>
 </html>
