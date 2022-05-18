@@ -25,19 +25,25 @@
 }
 
 .box {
-    width: 200px;
+    width: 250px;
     margin: 30px auto;
+    margin-left: 100px;
     position: relative;
     border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 7px;
 }
 
 .toggle-btn {
-    padding: 8px 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
     cursor: pointer;
     background: transparent;
     border: 0;
     outline: none;
     position: relative;
+    font-size: 16px;
 }
 
 #btn {
@@ -80,10 +86,10 @@
 }
 
 .sub-button {
-    width: 70%;
+    width: 100%;
     padding: 8px 27px;
     cursor: pointer;
-    margin: 20px;
+    margin-top: 20px;
     background: linear-gradient(to right, #ff4b2b, #ff416c);
     border: 0;
     border-radius: 15px;
@@ -105,5 +111,18 @@ label {
 }
 
 #signup {
-    left: 450px;
+    left: 350px;
+}
+
+.redirect {
+    margin-top: 230px;
+    margin-left: 50px;
+}
+
+.button-one {
+    border: 0;
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
 }
