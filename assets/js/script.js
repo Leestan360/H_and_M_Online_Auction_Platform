@@ -15,11 +15,3 @@ document.getElementById('submit').onclick = function() {
     alert("Welcome!");
 };
 
-document.getElementById('submit-1').onclick = function() {
-    window.location.href = "../../home_page.html";
-
-    var email = document.getElementById('first').value;
-
-    alert("You are now signed in!")
-}
-
