@@ -7,14 +7,30 @@
   font-family:apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
 }
 
-.navBar{
-  display:flex
+body > .navBar{
+  display:flex;
+  justify-content: space-between;
+  margin-left: 2.1em;
+  margin-right: 2.4em;
+}
+
+body > .category {
+  margin-left: 3.3em;
 }
 
 .navBar > h1{
   padding : 0.8em;
   font-size: 25;
-  font-weight:600;
+  font-weight:400;
+  
+}
+
+.navBar > a {
+  padding : 0.8em;
+  font-size: 25;
+  font-weight:400;
+  color: #0078d7;
+  margin-top: 0.8em;
 }
 
 .category > h1 {
@@ -43,6 +59,13 @@
 
 .bid1 >img, h1 {
   margin-bottom: 0.5em;
+  font-weight: 450;
+  
+}
+
+.descName {
+  width: 350px;
+  margin-left: +40px;
 }
 
 .images {
@@ -54,15 +77,19 @@
 .bottom-left {
   position: absolute;
   bottom: 8px;
-  left: 16px;
+  left: 6px;
+  margin-left: +30px;
 }
 
 /* Bottom right text */
 .bottom-right {
   position: absolute;
   bottom: 8px;
-  right: 16px;
+  right: 6px;
+  margin-right: +30px;
+
 }
+
 
 
 
