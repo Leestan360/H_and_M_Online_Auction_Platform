@@ -13,6 +13,18 @@
     color: black;
 
 }
+.header>ul>li{
+    border:1px solid #fff8f8;
+    background:none;
+    padding:10px 20px;
+    font-size:20 px;
+    cursor:pointer
+    margin:10px
+    transition:0.8s.
+
+}.header:hover{
+    color:black
+}
 
 .header > nav > ul {
     display: flex;
@@ -33,6 +45,8 @@
     padding: 40px;
     margin: auto;
     margin-left: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
 .material > .image > div > h1 {
@@ -40,6 +54,12 @@
     margin-top: 20px;
     margin-bottom: 20px;
     
+}
+.material > .image > div {
+    padding-left: 120 px;
+    padding-right:120 px;
+}
+
 
 }
 
