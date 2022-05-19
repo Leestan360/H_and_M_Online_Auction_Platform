@@ -21,18 +21,18 @@
     padding: 5px;
     overflow: hidden;
     background-color: white;
-    border-radius: 15px;
+    border-radius: 0 0 15px 15px;
 }
 
-.box {
-    width: 250px;
-    margin: 30px auto;
-    margin-left: 100px;
-    position: relative;
-    border-radius: 15px;
-    padding-left: 10px;
-    padding-right: 7px;
-}
+/*.box {
+    border-bottom: 1px solid lightgray;
+    margin-top: -5px;
+    margin-left: -5px;
+    margin-right: -5px;
+    text-align: center;
+    padding-bottom: 5px;
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+}*/
 
 .toggle-btn {
     padding-top: 10px;
@@ -64,7 +64,7 @@
     color: cornflowerblue;
     cursor: pointer;
     border-radius: 50%;
-    margin-top: 240px;
+    margin-top: 280px;
     justify-content: space-evenly;
 }
 
@@ -91,16 +91,17 @@
     width: 100%;
     padding: 8px 27px;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 10px;
     background: linear-gradient(to right, #ff4b2b, #ff416c);
     border: 0;
     border-radius: 15px;
-    font-size: 10px;
+    font-size: 16px;
     outline: none;
 }
 
 .check-box {
     margin: 25px 2px 15px 0;
+    cursor: pointer;
 }
 
 label {
@@ -109,6 +110,11 @@ label {
 }
 
 #login {
+    left: 50px;
+    margin-top: -60px;
+}
+
+#signup {
     left: 50px;
     margin-top: -60px;
 }
