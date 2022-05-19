@@ -1,12 +1,25 @@
-function validateform(){  
-    var email = document.myform.email.value;  
-    var password = document.myform.password.value;  
-      
-    if (email == null || email == ""){  
-      alert("Name can't be blank");  
-      return false;  
-    } else if (password.length < 6) {  
-      alert("Password must be at least 6 characters long.");  
-      return false;  
-      }  
-    } 
+setInterval(() => {
+    if (
+        document.getElementById('first').value == "" ||
+        document.getElementById('second').value == "" ||
+        document.getElementById('last').value == ""
+    );
+});
+
+
+document.getElementById('submit').onclick = function() {
+    window.location.href = "../../index.html";
+
+    var email = document.getElementById('first').value;
+
+    alert("Welcome!");
+};
+
+document.getElementById('submit-1').onclick = function() {
+    window.location.href = "../../home_page.html";
+
+    var email = document.getElementById('first').value;
+
+    alert("You are now signed in!")
+}
+
