@@ -32,7 +32,7 @@ JavaScript - To make the web page interactive and create a login and signup form
 ## Support and contact details
 Contact info: email:- stanleymayore2@gmail.com 
               phone number:- +254702425434
-              ogaloharrison8&gmail.com
+              ogaloharrison@gmail.com
 
 This are the two main contacts that you can easily connect with me!
 
