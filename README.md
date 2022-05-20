@@ -36,7 +36,7 @@ Contact info: email:- stanleymayore2@gmail.com
               phone number:- +254799820376
               phone number:- 
 
-This are the two main contacts that you can easily connect with me!
+Connect with us
 
 ## Licence
 MIT Licence
