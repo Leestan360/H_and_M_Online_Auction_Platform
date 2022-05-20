@@ -32,11 +32,14 @@ JavaScript - To make the web page interactive and create a login and signup form
 ## Support and contact details
 Contact info: email:- stanleymayore2@gmail.com 
               phone number:- +254702425434
+
               email:- ogaloharrison@gmail.com
               phone number:- +254799820376
-              email:-
+
+              email:- maryanneanyango98@gmail.com
               phone number:- +254742069184
-              email:- 
+
+              email:- ramadhan.ramadhan@student.moringa.com
               phone number:- +254757131400
 
 Connect with us
