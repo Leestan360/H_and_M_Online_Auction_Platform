@@ -34,7 +34,10 @@ Contact info: email:- stanleymayore2@gmail.com
               phone number:- +254702425434
               email:- ogaloharrison@gmail.com
               phone number:- +254799820376
-              phone number:- 
+              email:-
+              phone number:- +254742069184
+              email:- 
+              phone number:- +254757131400
 
 Connect with us
 
