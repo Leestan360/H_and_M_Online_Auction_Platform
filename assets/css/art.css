@@ -1,1 +1,109 @@
-!
+* {
+  padding: 0;
+  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+body {
+  background-color: #FFF8F8;
+}
+
+
+.popUp > .btn1 {
+  padding: 8px;
+  font-size: 20px;
+  margin: 20px;
+  background-color:lightgray;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.popUp > .popItems > h1 {
+  font-weight:550;
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.itemPop > img, h2, p {
+  margin-left:-10px;
+}
+
+
+.popUp > .popItems > .popBidders {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popBidders {
+  display: flex;
+          
+}
+
+.popBidders > .itemPop {
+  width: 60%;
+
+}
+
+.popBidders > .itemPop > h2 {
+  margin-left: -10px;
+  margin-top: 20px;
+  font-weight: 550;
+  font-size: 20px;  
+
+}
+
+.popBidders > .itemPop > p {
+  margin-left: -10px;
+  font-size: 20px;
+  width: 60%;  
+
+}
+
+
+
+.popBidders > .bidTable {
+  width: 40%;
+}
+
+.bidTable > table {
+  border-spacing: 0 500;
+}
+
+th, td {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 220px;
+  height: 50px;
+  text-align: start;
+  
+}
+
+.bid2 {
+  padding: 6px;
+  text-align: start;
+  margin-top: 30px;
+  margin-left: -10px;
+
+}
+
+.otherImages > h2 {
+  margin-left: +18px;
+  margin-top: 20px;
+  font-weight: 550;
+  font-size: 20px;
+}
+
+.otherImages > .all_images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 2px;
+  
+}
+
+.otherImages > .all_images > img {
+  grid-gap: 20px;
+}
